@@ -1,0 +1,143 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.pernik {
+    background-image: url('../img/pernik.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.section-1 {
+    background-image: url('../img/sec1.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-2 {
+    background-image: url('../img/sec2.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-3 {
+    background-image: url('../img/sec3.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-4 {
+    background-image: url('../img/sec4.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.undian {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    width: 50%;
+    text-align: center;
+    background-image: url('../img/undian-biru.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.btn-grad {
+    background-image: url('../img/undian-tombol.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: large;
+    border: 0px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    width: 40%;
+}
+
+.btn-grad:active {
+    background-image: url('../img/undian-oren.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.pemenang {
+    position: absolute;
+    left: 15%;
+    top: 75%;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+}
+
+.kolom {
+    background-image: url('../img/pemenang.png');
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 7px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+#rand_kupon {
+    /* border-radius: 5px; */
+    background-image: url('../img/undian-oren.png');
+    background-size: cover;
+    background-position: center;
+    font-size: xx-large;
+    color: yellow;
+    border: 0;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Roboto';
+}
+
+.id-pemenang {
+    font-family: 'Roboto';
+    /* font-size: large; */
+}
+
+.f-montserrat700 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.f-roboto {
+    font-family: 'Roboto';
+}
+
+.fs-sm {
+    font-size: small;
+}
+
+.fs-l {
+    font-size: large;
+}
+
+.fs-xl {
+    font-size: x-large;
+}
+
+.fs-xxl {
+    font-size: xx-large;
+}
