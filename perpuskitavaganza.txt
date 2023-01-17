@@ -140,4 +140,3 @@
 {kupon:"E07AE650",nama:"Perpustakaan Lentera SD Elkana"},
 {kupon:"B3E532FD",nama:"SMA IT UMMUL QURO BOGOR"},
 {kupon:"029BC0C1",nama:"SMP N 1 BOJONEGORO"},
-{kupon:"11223344",nama:"Yanuar Aji Candra"}

@@ -237,6 +237,7 @@
             ticks.pause();
             wins.play();
             $('#text_pemenang').html('Pemenangnya adalah <strong>' + data[index].nama + '</strong> dengan nomor kupon <strong>' + data[index].kupon) + '</strong>';
+            $('#modalPemenang').modal({ backdrop: 'static', keyboard: false });
             $('#modalPemenang').modal('show');
             $('#btnUndi').html('START');
         }
